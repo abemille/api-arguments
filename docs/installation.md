@@ -27,7 +27,7 @@ go build .
 ./api-arguments
 ```
 
-You can hit the API through `http://localhost:8081`.
+You can hit the API through `http://localhost:8001`.
 
 Beware that the default app config will store all Arguments in memory.
 To use Postgres, set [the config options](./configuration.md).
