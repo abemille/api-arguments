@@ -25,7 +25,7 @@ func (cfg *Server) logValues() {
 }
 
 func (cfg *Server) setDefaults(v *viper.Viper) {
-	v.SetDefault("server.addr", "localhost:8001")
+	v.SetDefault("server.addr", "0.0.0.0:8001")
 	v.SetDefault("server.read_header_timeout_millis", 5000)
 	v.SetDefault("server.cors_allowed_origins", []string{"*"})
 }
